@@ -22,7 +22,7 @@ const aboutSection = ()=>{
     
     const RecommendationComponentLeft = () => {
         return (<div className="float-left">
-        <h1 style={{lineHeight:'100%',color:'#ff9933'}}>Recommendation<br/><span style={{color:"white"}}>Artificial</span></h1>
+        <h1 style={{lineHeight:'100%',color:'white'}}><span style={{color:"#ff9933",fontSize:'2.2rem'}}> Recommendation</span><br/> Artificial</h1>
         <p style={{fontSize:'1.1rem',color:'white'}}>Rhetora's AI platform provides personalized sales consulting by deriving 100+ business parameters from user interactions and combining them with market and competitor intelligence. 
               </p>
               <button style={{border:'1px solid rgb(256,256,256)',boxShadow: '0px 0px 2px 1px rgba(256,256,256)',borderRadius: '4rem',padding:'9px',font:'1rem "Segoe UI", Arial, sans-serif',fontWeight:'600',color:'white',background:'transparent'}}>Book a demo</button>

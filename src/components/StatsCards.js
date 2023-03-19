@@ -1,9 +1,10 @@
 import './HowItWorks.css'
 import SplitScreen from './SplitScreen';
+import Footer from './Footer';
 const StatSection = ()=>{
     
     const IntegrationsComponentRight = () => {
-        return (<div className="float-left" style={{paddingLeft:'0'}}>
+        return (<div className="float-left" style={{padding:'2rem'}}>
         
         <p style={{fontSize:'1.1rem',color:'white'}}>Yield farming, Elon-led fearless Martian Pioneer. Tragically market capped Bitcoin miner. Miami-based VC scout. Softbank-injected dropbox alternative. Friends and Family raising, rationalist Job-seeker Friends and Family raising, rationalist Job-seeker
               </p>
@@ -110,6 +111,8 @@ const StatSection = ()=>{
         <IntegrationsComponentRight/>
     </SplitScreen>
     </div>
+
+<Footer/>
 
         </div>
   </div>)

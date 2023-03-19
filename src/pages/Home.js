@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/HowItWorks";
 import StatSection from "../components/StatsCards";
 
+
 const Home = () => {
 
     

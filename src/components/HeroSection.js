@@ -21,7 +21,7 @@ const RightHandComponent = () => {
     src={require("../assets/container.svg").default}
     alt="hero"
     className="float-right"
-    onClick={()=>setShow(true)}
+    // onClick={()=>setShow(true)}
   />
   </div>;
 }
